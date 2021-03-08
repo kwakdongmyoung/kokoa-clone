@@ -1,45 +1,93 @@
 body {
   background-color: gray;
-  height: 1000vh;
+  height: 200vh;
   margin: 20px;
 }
 .father {
   display: flex;
   justify-content: center;
 }
-#arrange {
+.arrange {
   display: flex;
-  justify-content: flex;
+  justify-content: center;
 }
-#start {
+.seting {
+  display: flex;
+  justify-content: center;
+}
+#first {
   background-color: white;
   height: 500px;
   width: 200px;
   margin: 20px;
   padding: 10px;
-  position: relative;
-  left: 800px;
 }
-
 #firstmap {
   background-color: tomato;
   height: 50px;
   width: 200px;
 }
-#colorname {
+div:nth-child(2) {
   font-size: 24pt;
-  position: absolute;
   top: 75px;
 }
-#hexname {
+div:nth-child(3) {
   font-size: 12pt;
-  position: absolute;
   top: 150px;
 }
-#endmap {
+#firstend {
   background-color: tomato;
   height: 250px;
   width: 200px;
-  position: absolute;
-  bottom: 10px;
+}
+#second {
+  background-color: white;
+  height: 500px;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+}
+#secondmap {
+  background-color: teal;
+  height: 50px;
+  width: 200px;
+}
+#secondend {
+  background-color: teal;
+  height: 250px;
+  width: 200px;
+}
+#third {
+  background-color: white;
+  height: 500px;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+}
+#thirdmap {
+  background-color: bisque;
+  height: 50px;
+  width: 200px;
+}
+#thirdend {
+  background-color: bisque;
+  height: 250px;
+  width: 200px;
+}
+#fourth {
+  background-color: white;
+  height: 500px;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+}
+#fourthmap {
+  background-color: palegreen;
+  height: 50px;
+  width: 200px;
+}
+#fourthend {
+  background-color: palegreen;
+  height: 250px;
+  width: 200px;
 }
