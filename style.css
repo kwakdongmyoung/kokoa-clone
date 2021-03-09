@@ -1,0 +1,72 @@
+html {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: #6bbcbe;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes ballrotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(0.5);
+  }
+  100% {
+    transform: rotate(1);
+  }
+}
+@keyframes rectangle-move {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.5);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.ballseting {
+  display: flex;
+}
+.rectangle-seting {
+  display: flex;
+}
+.ball {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 100px;
+  animation: ballrotate 2s infinite;
+}
+
+.rectangle-ani {
+  width: 20px;
+  height: 100px;
+  background-color: white;
+  margin: 5px;
+  animation: rectangle-move 1s infinite;
+}
+.delay1s {
+  animation-delay: 0.1s;
+}
+.delay2s {
+  animation-delay: 0.2s;
+}
+.delay3s {
+  animation-delay: 0.3s;
+}
+.delay4s {
+  animation-delay: 0.4s;
+}
+.delay5s {
+  animation-delay: 0.5s;
+}
