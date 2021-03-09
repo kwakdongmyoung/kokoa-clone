@@ -6,20 +6,21 @@ html {
 body {
   background-color: #6bbcbe;
   height: 100vh;
+  width: 200vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 @keyframes ballrotate {
   0% {
-    transform: rotate(0);
+    transform: rotateZ(0deg);
   }
   50% {
-    transform: rotate(0.5);
+    transform: rotateZ(180deg);
   }
   100% {
-    transform: rotate(1);
+    transform: rotateZ(360deg);
   }
 }
 @keyframes rectangle-move {
@@ -35,38 +36,35 @@ body {
 }
 .ballseting {
   display: flex;
+  margin-bottom: 200px;
+  animation: ballrotate 2s infinite;
 }
 .rectangle-seting {
   display: flex;
 }
-.ball {
+.ballani {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   background-color: white;
-  margin: 100px;
-  animation: ballrotate 2s infinite;
+  margin: 25px;
 }
-
 .rectangle-ani {
   width: 20px;
   height: 100px;
   background-color: white;
   margin: 5px;
-  animation: rectangle-move 1s infinite;
-}
-.delay1s {
-  animation-delay: 0.1s;
+  animation: rectangle-move 1s ease-in-out infinite;
 }
 .delay2s {
-  animation-delay: 0.2s;
+  animation-delay: 0.1s;
 }
 .delay3s {
-  animation-delay: 0.3s;
+  animation-delay: 0.2s;
 }
 .delay4s {
-  animation-delay: 0.4s;
+  animation-delay: 0.3s;
 }
 .delay5s {
-  animation-delay: 0.5s;
+  animation-delay: 0.4s;
 }
