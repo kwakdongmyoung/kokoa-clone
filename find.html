@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>find-to KoKoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i> </span>
+            <span class="screen-header__point"></span>
+        </div>
+    </header>
+       
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-qrcode"></i>
+                <span>QR Code</span></div>
+            <div class="icon-row__icon">
+                <i class="far fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-fingerprint"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">recommended Friends</h6>
+            <div>You have no recommended friends</div>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4 class="">Open Chat</h4>
+                <span>Go to Openchat Home<i class="fas fa-chevron-right fa-xs"></i>
+                </span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                    <div class="open-post__members">
+                        <img src="https://blog.kakaocdn.net/dn/Ugrws/btqA57LsJRf/e1qWY8UhqIrEG58bWrm8C1/img.jpg"/>
+                        <span class="open-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://t1.daumcdn.net/cfile/tistory/99086B3C5B9B75C431"/>
+                        <div class="open-post__heart-count">
+                            <i class="fas fa-heart fa-xs"></i>
+                            <span>326</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#SKY</h5>
+                    <h6 class="open-post__hashtags">#nice#beautiful#friends</h6>
+                    <div class="open-post__members">
+                        <img src="https://post-phinf.pstatic.net/MjAyMDAzMTNfMjA4/MDAxNTg0MDg0MDM4ODUx.5nvnbqqe1gMsW_USE-6tY5bv5j70Q1A0owYD3_meg6sg.VIqqwsVbMZv3mA9nHimf06vW9eRAqL-FdQ-tt4KoAdkg.JPEG/%EC%97%AC%ED%96%89%EC%97%90%EB%AF%B8%EC%B9%98%EB%8B%A4%EB%AC%B4%EB%A3%8C%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4_01_%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B3%A0%EC%84%B1.jpg?type=w1200"/>
+                        <span class="open-post__member-count">good members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column open-post__column-dif">
+                    <div class="open-post__photo">
+                        <img src="https://t1.daumcdn.net/cfile/blog/9978843E5D0E578101"/>
+                        <div class="open-post__heart-count">
+                            <i class="fas fa-heart fa-xs"></i>
+                            <span>386</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="no-mobile">
+        <span>Your Screen is too big ㅠㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/1c4c6ae69d.js" crossorigin="anonymous"></script>
+</body>
+</html>
